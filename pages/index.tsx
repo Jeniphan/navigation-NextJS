@@ -1,7 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Input from '@components/Input/Input'
-import ContextTest from '@components/ContextTest/ContextTest'
 
 const Home: NextPage = () => {
 	return (
@@ -15,9 +13,7 @@ const Home: NextPage = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<div className="text-red-500">Content</div>
-			<Input />
-			<ContextTest />
+			{/* <Navigation /> */}
 		</>
 	)
 }

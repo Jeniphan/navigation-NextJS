@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 
 const Header: FC = () => {
-	return <>Header</>
+	return <></>
 }
 
 export default Header
